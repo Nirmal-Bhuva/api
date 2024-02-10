@@ -372,7 +372,7 @@ const books = [
    // res.json(books)
    //})
 
-app.get('/', (req, res) => {
+app.get('/', function (req, res) {
  res.send('Hello World!')
 })
 app.listen(port, () => {
