@@ -368,9 +368,9 @@ const books = [
     //{id: 3, title: 'Utopia', author: 'Sir Thomas Moor'},
    
    
-   app.get('/api/books',function(req, res) {
-    res.json(books)
-   })
+   //app.get('/api/books',function(req, res) {
+   // res.json(books)
+   //})
 
 app.get('/', (req, res) => {
  res.send('Hello World!')
