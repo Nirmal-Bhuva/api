@@ -2,7 +2,7 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "capstone_api/index.js",
+  "main": "index.js",
   "type": "module",
 
 
