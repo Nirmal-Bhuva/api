@@ -371,7 +371,7 @@ const books = [
    
    app.get('/',function(req, res) {
    
-    res.send(books)
+    res.json(books)
    })
 
 
