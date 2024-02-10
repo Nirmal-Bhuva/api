@@ -5,7 +5,9 @@ const port = 3000
 
 
 var corsOptions = {
-  origin: 'http://localhost:*',
+  origin: '*',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Specify the allowed HTTP methods
+
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
