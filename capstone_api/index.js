@@ -373,7 +373,7 @@ const books = [
    })
 
 app.get('/', (req, res) => {
- res.json(books)
+ res.send("hello world");
 })
 app.listen(port, () => {
  console.log(`Server running at http://localhost:${port}`)
