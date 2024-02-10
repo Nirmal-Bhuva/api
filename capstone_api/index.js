@@ -1,8 +1,16 @@
 import express from 'express'
 import cors from 'cors'
 const app = express()
-app.use(cors())
 const port = 3000
+
+
+var corsOptions = {
+  origin: 'http://example.com',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+
+app.use(cors(corsOptions))
+
 
 const books = [
 
