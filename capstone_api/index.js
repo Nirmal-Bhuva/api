@@ -6,7 +6,6 @@ const port = 3000
 
 const books = [
 
-    
   {
     "id": 1,
     "title": "Understanding Depression",
