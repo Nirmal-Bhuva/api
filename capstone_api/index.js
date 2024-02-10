@@ -10,7 +10,7 @@ const port = 3000
     //{id: 3, title: 'Utopia', author: 'Sir Thomas Moor'},
    
    
-   app.get('/api/books',function(req, res) {
+   app.get('/',function(req, res) {
     const books = [
 
     
