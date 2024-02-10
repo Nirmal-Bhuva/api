@@ -3,7 +3,7 @@ import express from 'express'
 const app = express()
 //app.use(cors())
 const port = 3000
-
+/*
 const books = [
 
     
@@ -371,6 +371,8 @@ const books = [
    //app.get('/api/books',function(req, res) {
    // res.json(books)
    //})
+
+   */
 
 app.get('/',  (req, res) => {
  res.send('Hello World!')
